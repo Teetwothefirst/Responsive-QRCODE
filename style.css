@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+body{
+    background: rgb(235, 235, 235);
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+main{
+    width:  30%;
+    height: 550px;
+    border-radius: 20px;
+    background: rgb(250,250,250);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.out{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+img{
+  width: 90%;
+    /* border: 5px solid yellow; */
+    border-radius: 20px;
+
+}
+.container1{
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: flex-start;
+}
+.container2{
+    margin-top: 20px;
+    /* background: red; */
+
+}
+.container3{
+    font-size: 17px; 
+    /* background: red; */
+    font-weight: 700;
+ }
+ .container4{
+     font-size: 11px;
+     /* background: red; */
+ }
+ .container5{
+     font-size: 11px;
+     /* background: red; */
+ }
+/* .attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+} */
+@media only screen and (max-width: 375px) {
+    main{
+        font-size: 25px;
+        width:100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    [class*=container]{
+        width: 100%;
+        text-align: center;
+        
+    }
+    img{
+        width: 90%;
+        height: 90%;
+    }
+    .out{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        margin-bottom: 5px;
+    }
+    .container5{
+        margin-bottom: 10px;
+    }
+    
+}
